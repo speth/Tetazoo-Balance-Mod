@@ -137,6 +137,8 @@ New in Version 2.0:
   - reduce range of destroyer cannon from 80 to 70 on Aeon and Cybran destroyers (UEF and Seraphim are already range 60)
   - Increased dps of Aeon cruiser to 140 (70)
   - Decrease missile dps of Seraphim cruiser to 200 (250)
+* Bulwark is OP
+  - reduced shield HP to 6000
 
 >> Tier 3 <<
 * Battleships: Astoundingly ineffective

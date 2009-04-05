@@ -149,6 +149,17 @@ UnitBlueprint {
     }
 }
 
+# UEF T2 Shield Boat
+UnitBlueprint {
+    Merge = true,
+    BlueprintId = "xes0205",
+    Defense = {
+        Shield = {
+            ShieldMaxHealth = 6000,
+        },
+    },
+}
+
 # UEF T3 Battlecruiser
 UnitBlueprint {
     Merge = true,
