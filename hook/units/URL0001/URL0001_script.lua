@@ -169,8 +169,24 @@ URL0001 = Class(TBM_URL0001) {
     OnCreate = function(self)
         TBM_URL0001.OnCreate(self)
         self:AddBuildRestriction( categories.CYBRAN * categories.BUILTBYTIER4COMMANDER )
+
+        -- only build spare ACUs for your own race
+        AddBuildRestriction(self:GetArmy(), categories.EXPERIMENTAL * categories.BUILTBYQUANTUMGATE * (categories.AEON + categories.SERAPHIM + categories.UEF)) 
     end,
 
+    OnKilled = function(self)
+        LOG("URL0001:OnKilled")
+        local army = self:GetArmy()
+        local backupACUs = ArmyBrains[army]:GetListOfUnits(categories.CYBRAN * categories.EXPERIMENTAL * categories.BUILTBYQUANTUMGATE, false)
+        if backupACUs then
+            local position = backupACUs[1]:GetPosition()
+            local orientation = backupACUs[1]:GetOrientation()
+            backupACUs[1]:Destroy()
+            local NewGuy = CreateUnit('url0001', army, position[1], position[2], position[3], orientation[1], orientation[2], orientation[3], orientation[4])
+            NewGuy:PlayCommanderWarpInEffect()
+        end
+        TBM_URL0001.OnKilled(self)
+    end,
 }
 
 TypeClass = URL0001

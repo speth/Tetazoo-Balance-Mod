@@ -54,6 +54,24 @@ UAL0001 = Class(TBM_UAL0001) {
     OnCreate = function(self)
         TBM_UAL0001.OnCreate(self)
         self:AddBuildRestriction( categories.AEON * categories.BUILTBYTIER4COMMANDER )
+        
+        -- only build spare ACUs for your own race
+        AddBuildRestriction(self:GetArmy(), categories.EXPERIMENTAL * categories.BUILTBYQUANTUMGATE * (categories.CYBRAN + categories.SERAPHIM + categories.UEF)) 
+
+    end,
+
+    OnKilled = function(self)
+        LOG("UAL0001:OnKilled")
+        local army = self:GetArmy()
+        local backupACUs = ArmyBrains[army]:GetListOfUnits(categories.AEON * categories.EXPERIMENTAL * categories.BUILTBYQUANTUMGATE, false)
+        if backupACUs then
+            local position = backupACUs[1]:GetPosition()
+            local orientation = backupACUs[1]:GetOrientation()
+            backupACUs[1]:Destroy()
+            local NewGuy = CreateUnit('ual0001', army, position[1], position[2], position[3], orientation[1], orientation[2], orientation[3], orientation[4])
+            NewGuy:PlayCommanderWarpInEffect()
+        end
+        TBM_UAL0001.OnKilled(self)
     end,
 
 }

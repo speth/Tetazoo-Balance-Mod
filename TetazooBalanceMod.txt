@@ -1,6 +1,6 @@
 -------------------------------
 ----- Tetazoo Balance Mod -----
----- Version 1.0 Changelog ----
+---- Version 2.0 Changelog ----
 -------------------------------
 
 Primary goals:
@@ -13,6 +13,16 @@ Primary goals:
 
 - Costs are given as mass/energy/time
 - Original values are given in parentheses after the new value
+
+New in Version 2.0:
+- Radiation-hardened Strategic missile defense: Takes 10% damage from all nukes
+- Spare ACU can be built from the Quantum Gateway
+  - Cost: 18,000 mass, 900,000 energy, builds in 6:00 (-50, -2500)
+  - You can only build one, and it must be of the same faction as your ACU
+  - It is a basic ACU with no upgrades, and without overcharge
+  - When your ACU dies, the spare becomes your real ACU, with all abilities available (you lose all upgrades and veterancy)
+- Repair works in a reasonable manner for units built from factories
+- T3 Mobile AA mod is merged directly, and the dps of all T3MAA units is increased to ~ 350 dps
 
 *********************
 ****** ECONOMY ******
@@ -27,7 +37,6 @@ Primary goals:
     - T3 Aircraft Carriers have the BP of a T3 air factory
     - Experimental factories have the BP of 3 equivalent T3 factories
   - disable Kennels and Hives. Trust me, you don't want them any more.
-  - /// This does have the unfortunate side-effect that repairing units is now exceedingly slow ///
   - details are at the bottom...
 * Low tier engineers are more mass-efficient than higher-tier ones
   - Decrease cost of T2 engineer to 130 mass (160)
@@ -227,6 +236,9 @@ Primary goals:
   - Increased launcher cost to 18k mass (15k), 250k (210k) energy
 * Strategic Missile Subs are never used
   - Reduce missile build time to 6 minutes
+* It is impossible to practically rebuild SMD after getting hit by a nuke
+  - SMD is now radiation hardened, taking only 10% damage from nukes
+
 
 *********************
 ****** ACU/SCU ******
@@ -291,6 +303,7 @@ Primary goals:
 * Restoration field is imbalanced
   - Increased RF upgrade cost to 1200/27000/1200 (600/4500/600)
   - Increased RRF cost to 2400/81000/2400 (1500/31250/1250)
+
 *********************
 *** EXPERIMENTALS ***
 *********************
@@ -317,7 +330,7 @@ Primary goals:
   - 30% increase in DPS of T3 static artillery
   - Reduce firing randomness by 50%
   - 1 T3 artillery should be able to take down unlayered shields (but this might already be true)
-  - double build time 
+  - build time increased to approx. 75000 (30000)
 
 * The Novax is useless
   - Crash damage reduced to 100
@@ -352,12 +365,6 @@ Primary goals:
 *** Ideas/Concerns for the Future ***
 *************************************
 
-* Protection of the ACU late game is more about gambling and less about strategy
-  - Allow ACUs to be built out of Quantum Gateway -- you lose only when they are *all* dead
-    (the teleporting cybran ACU may be a problem in this case...maybe look up the mod for making a teleport supression field)
-    Cost of the ACU in this case should be on the order of 40k mass
-* Once you get nuked once, you can never safely build SMD
-  - SMD gets radiation hardening: only takes 1000 damage from nukes
 * Crusiers are still too good against air?
   - reduction of AA dps from cruisers
 * SCUs
@@ -369,6 +376,7 @@ Primary goals:
   - still not sure what constitutes a good balance here.
   - the imbalances among the races don't seem to be well distributed.
   - would continued mass+energy costs make these more balanced? Something like 1/2 of a SML? Probably reduce cost by another 10% after this.
+  
 ********************
 *** Balance Math ***
 ********************

@@ -53,9 +53,25 @@ XSL0001 = Class(TBM_XSL0001) {
 
     OnCreate = function(self)
         TBM_XSL0001.OnCreate(self)
-        self:AddBuildRestriction( categories.SERAPHIM * categories.BUILTBYTIER4COMMANDER )
+        self:AddBuildRestriction( categories.SERAPHIM * categories.BUILTBYTIER4COMMANDER ) -- require T4 build suite to build experimentals
+        
+        AddBuildRestriction(self:GetArmy(), categories.EXPERIMENTAL * categories.BUILTBYQUANTUMGATE * (categories.AEON + categories.CYBRAN + categories.UEF)) -- only build spare ACUs for your own race
     end,
 
+    OnKilled = function(self)
+        LOG("XSL0001:OnKilled")
+        local army = self:GetArmy()
+        local backupACUs = ArmyBrains[army]:GetListOfUnits(categories.SERAPHIM * categories.EXPERIMENTAL * categories.BUILTBYQUANTUMGATE, false)
+        if backupACUs then
+            local position = backupACUs[1]:GetPosition()
+            local orientation = backupACUs[1]:GetOrientation()
+            backupACUs[1]:Destroy()
+            local NewGuy = CreateUnit('xsl0001', army, position[1], position[2], position[3], orientation[1], orientation[2], orientation[3], orientation[4])
+            NewGuy:PlayCommanderWarpInEffect()
+        end
+        TBM_XSL0001.OnKilled(self)
+    end,
+    
 }
 
 TypeClass = XSL0001

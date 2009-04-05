@@ -14,7 +14,9 @@ do
     
     function ModBlueprints(all_bps)
 	    oldModBlueprints(all_bps)
+        
 
+        
         # Base Build power for T1 Factories
         local LandBP1 = 80
         local AirBP1 = 64
@@ -47,6 +49,20 @@ do
 
         --loop through the blueprints and adjust as desired.
         for id,bp in all_bps.Unit do
+            for i, mod in __active_mods do
+                if not mod.ui_only then
+                    local curfile = mod.location .. '/icons/units/' .. bp.BlueprintId .. "_icon.dds"
+                    if DiskGetFileInfo(curfile) then
+                        LOG("Found build icon for " .. bp.BlueprintId .. "in " .. curfile)
+                        bp.BuildIcon = curfile
+                    end
+                end
+            end
+            
+            if bp.Economy and bp.Economy.BuildTime then
+                bp.Economy.RepairTime = bp.Economy.BuildTime
+            end
+        
             # Increase unit build times
             if bp.Economy and bp.Economy.BuildTime and testCategories(bp.Categories,'MOBILE')
                and not testCategories(bp.Categories,'BUILTBYQUANTUMGATE') then

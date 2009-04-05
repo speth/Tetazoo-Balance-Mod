@@ -1,0 +1,12 @@
+--These are for getting the units in a nice order on the build menu
+UnitBlueprint {
+    Merge = true,
+    BlueprintId = "xrl0003",
+    BuildIconSortPriority = 20,
+}
+
+UnitBlueprint {
+    Merge = true,
+    BlueprintId = "xrl0005",
+    BuildIconSortPriority = 40,
+}

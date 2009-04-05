@@ -30,12 +30,12 @@ UnitBlueprint {
         {
             EffectiveRadius = 10, # to correct the wrong TMD range display bug [129]
             MaxRadius = 30,
-      RangeCategory = 'false',
+            RangeCategory = 'false',
         },
         {                # dummy weapon to show correct range circle
-      EffectiveRadius = 10,             
-      MaxRadius = 10,
-      RangeCategory = 'UWRC_Countermeasure',
+            EffectiveRadius = 10,             
+            MaxRadius = 10,
+            RangeCategory = 'UWRC_Countermeasure',
      },
     },
 } 

@@ -225,6 +225,13 @@ UnitBlueprint {
         BuildCostMass = 37000,
         BuildCostEnergy = 430000,
         BuildTime = 37000,
+        BuildableCategory = {
+            'xrl0002',
+            'xrl0003',
+            'xrl0004',
+            'xrl0005',
+			'drlk005',
+        },
     },
     Categories = {
         'PRODUCTFA',

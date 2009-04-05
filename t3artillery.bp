@@ -5,7 +5,7 @@ UnitBlueprint {
     Economy = {
         BuildCostMass = 80000,
         BuildCostEnergy = 800000,
-        BuildTime = 53333,
+        BuildTime = 80000,
     },
     Weapon = {
         {
@@ -22,7 +22,7 @@ UnitBlueprint {
     Economy = {
         BuildCostMass = 70000,
         BuildCostEnergy = 700000,
-        BuildTime = 46666,
+        BuildTime = 70000,
     },
     Weapon = {
         {
@@ -39,7 +39,7 @@ UnitBlueprint {
     Economy = {
         BuildCostMass = 75000,
         BuildCostEnergy = 750000,
-        BuildTime = 50000,
+        BuildTime = 75000,
     },
     Weapon = {
         {
@@ -56,7 +56,7 @@ UnitBlueprint {
     Economy = {
         BuildCostMass = 75000,
         BuildCostEnergy = 750000,
-        BuildTime = 50000,
+        BuildTime = 75000,
     },
     Weapon = {
         {
