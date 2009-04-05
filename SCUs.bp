@@ -1,0 +1,256 @@
+# Aeon SCU
+UnitBlueprint { 
+ Merge = true, 
+    BlueprintId="ual0301", 
+    Economy = {
+        BuildableCategory = {
+            'BUILTBYTIER3ENGINEER AEON',
+            'BUILTBYTIER4ENGINEER AEON',
+        },
+        BuildCostMass = 5830,
+        BuildCostEnergy = 123000,
+        BuildTime = 288000,
+    },
+    Enhancements = {
+        EngineeringFocusingModule = {
+            BuildCostMass = 1200,
+            BuildCostEnergy = 24000,
+            BuildTime = 3600,
+        },
+        ResourceAllocation = {
+            ProductionPerSecondEnergy = 1600,
+            ProductionPerSecondMass = 12,
+            BuildTime = 4500,
+        },
+        Shield = {
+            BuildTime = 3750,
+        },
+        ShieldHeavy = {
+            BuildTime = 4500,
+        },
+        StabilitySuppressant = {
+            BuildTime = 2500,
+        },
+        SystemIntegrityCompensator = {
+            ShowBones = {
+                '',
+            },
+            UpgradeEffectBones = {
+                '',
+            },
+            BuildTime = 4500,
+            Slot = 'LCH',
+        },
+        SystemIntegrityCompensatorRemove = {
+            Slot = 'LCH',
+            HideBones = {
+                '',
+            },
+        },
+    },
+    Physics = {
+        MaxSpeed = 2.7,
+        MaxAcceleration = 2.7,
+        MaxBrake = 2.7,
+    },
+    Weapon = {
+        {
+            Damage = 600,
+            RateOfFire = 0.67,
+        },
+        {
+        },
+    },
+    
+} 
+
+# Cybran SCU
+UnitBlueprint { 
+ Merge = true, 
+    BlueprintId="url0301", 
+    Economy = {
+        BuildableCategory = {
+            'BUILTBYTIER3ENGINEER CYBRAN',
+            'BUILTBYTIER4ENGINEER CYBRAN',
+        },
+        BuildCostMass = 6000,
+        BuildCostEnergy = 120000,
+        BuildTime = 288000,
+    },
+    Enhancements = {
+        CloakingGenerator = {
+            BuildCostMass = 3000,
+            BuildCostEnergy = 200000,
+            BuildTime = 5400,
+            MaintenanceConsumptionPerSecondEnergy = 1500,
+        },
+        EMPCharge = {
+            BuildTime = 4500,
+        },
+        FocusConvertor = {
+            BuildCostMass = 2000,
+            BuildCostEnergy = 90000,
+            BuildTime = 5000,
+            NewDamageMod = 400,
+        },
+        NaniteMissileSystem = {
+            BuildTime = 2500,
+        },
+        ResourceAllocation = {
+            ProductionPerSecondEnergy = 1600,
+            ProductionPerSecondMass = 12,
+            BuildTime = 4500,
+        },
+        SelfRepairSystem = {
+            BuildTime = 4500,
+        },
+        StealthGenerator = {
+            BuildCostMass = 1000,
+            BuildCostEnergy = 37500,
+            BuildTime = 3000,
+            MaintenanceConsumptionPerSecondEnergy = 150,
+        },
+        Switchback = {
+            BuildCostMass = 1200,
+            BuildCostEnergy = 24000,
+            BuildTime = 3600,
+        },
+    },
+    Physics = {
+        MaxSpeed = 2.7,
+        MaxAcceleration = 2.7,
+        MaxBrake = 2.7,
+    },
+    Weapon = {
+        {
+            Damage = 200,
+            RateOfFire = 2,
+        },
+        {
+            Damage = 440,
+            MuzzleVelocity = 40,
+            ProjectileLifetime = 8,
+            RateOfFire=0.4,
+        },
+        {
+        },
+    },
+} 
+
+# UEF SCU
+UnitBlueprint { 
+ Merge = true, 
+    BlueprintId="uel0301", 
+    Economy = {
+        BuildableCategory = {
+            'BUILTBYTIER3ENGINEER UEF',
+            'BUILTBYTIER4ENGINEER UEF',
+        },
+        BuildCostMass = 6400,
+        BuildCostEnergy = 114000,
+        BuildTime = 288000,
+    },
+    Enhancements = {
+        AdvancedCooolingUpgrade = {
+            BuildCostMass = 2000,
+            BuildCostEnergy = 90000,
+            BuildTime = 5000,
+            NewRateOfFire = 2,
+        },
+        HighExplosiveOrdnance = {
+            BuildTime = 3000,
+
+        },
+        Pod = {
+            BuildCostMass = 1200,
+            BuildCostEnergy = 24000,
+            BuildTime = 3600,
+        },
+        RadarJammer = {
+            BuildTime = 1800,
+        },
+        ResourceAllocation = {
+            ProductionPerSecondEnergy = 1600,
+            ProductionPerSecondMass = 12,
+            BuildTime = 4500,
+        },
+        SensorRangeEnhancer = {
+            BuildTime = 2500,
+        },
+        Shield = {
+            BuildTime = 3750,
+        },
+        ShieldGeneratorField = {
+            BuildTime = 6750,
+            BuildCostEnergy = 157500,
+        },
+    },
+    Physics = {
+        MaxSpeed = 2.7,
+        MaxAcceleration = 2.7,
+        MaxBrake = 2.7,
+    },
+    Weapon = {
+        {
+            Damage = 400,
+            RateOfFire = 1,
+        },
+        {
+        },
+    },
+} 
+
+# Seraphim SCU
+UnitBlueprint { 
+ Merge = true, 
+    BlueprintId="xsl0301", 
+    Economy = {
+        BuildableCategory = {
+            'BUILTBYTIER3ENGINEER SERAPHIM',
+            'BUILTBYTIER4ENGINEER SERAPHIM',
+        },
+        BuildCostMass = 6200,
+        BuildCostEnergy = 117000,
+        BuildTime = 288000,
+    },
+    Enhancements = {
+        DamageStabilization = {
+            BuildTime = 3750,
+        },
+        EngineeringThroughput = {
+            BuildCostMass = 1200,
+            BuildCostEnergy = 24000,
+            BuildTime = 3600,
+        },
+        EnhancedSensors = {
+            BuildTime = 2500,
+        },
+        Missile = {
+            BuildTime = 3000,
+        },
+        Overcharge = {
+            BuildTime = 7500,
+            BuildCostMass = 5000,
+        },
+        Shield = {
+            BuildTime = 3750,
+        },
+    },
+    Physics = {
+        MaxSpeed = 2.7,
+        MaxAcceleration = 2.7,
+        MaxBrake = 2.7,
+    },
+    Weapon = {
+        {
+            Damage = 400,
+            RateOfFire = 1,
+        },
+        {
+        },
+        {
+        },
+        {
+        },
+    },
+} 

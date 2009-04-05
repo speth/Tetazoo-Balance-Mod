@@ -1,0 +1,332 @@
+# Aeon T1 Frigate
+UnitBlueprint { 
+    Merge = true, 
+    BlueprintId="uas0103", 
+    Weapon = {
+        {
+            MaxRadius = 23,
+        },
+        {
+            MaxRadius = 23,
+        },
+        {
+        },
+    },
+} 
+
+# Cybran T1 Frigate
+UnitBlueprint { 
+    Merge = true, 
+    BlueprintId="urs0103", 
+    Weapon = {
+        {
+            MaxRadius = 20,
+        },
+        {
+        },
+    },
+}
+
+# UEF T1 Frigate
+UnitBlueprint {
+    Merge = true,
+    BlueprintId="ues0103",
+    Weapon = {
+        {
+            MaxRadius = 20,
+        },
+        {
+        },
+    },
+}
+
+# Seraphim T1 Frigate
+UnitBlueprint {
+    Merge = true,
+    BlueprintId="xss0103",
+    Weapon = {
+        {
+            MaxRadius = 20,
+        },
+        {
+        },
+    },
+}
+
+# Aeon T2 Destroyer
+UnitBlueprint { 
+    Merge = true, 
+    BlueprintId="uas0201", 
+    Weapon = {
+        {
+            MaxRadius = 70,
+        },
+        {
+        },
+        {
+        },
+        {
+        },
+    },
+} 
+
+# Cybran T2 Destroyer
+UnitBlueprint { 
+    Merge = true, 
+    BlueprintId="urs0201", 
+    Weapon = {
+        {
+            MaxRadius = 70,
+        },
+        {
+        },
+        {
+        },
+        {
+        },
+    },
+}
+
+# Aeon T2 Cruiser
+UnitBlueprint { 
+    Merge = true, 
+    BlueprintId="uas0202", 
+    Weapon = {
+        {
+            Damage = 280,
+        },
+        {
+        },
+        {
+        },
+        '',
+    }
+}
+
+# Cybran T2 Cruiser
+UnitBlueprint { 
+    Merge = true, 
+    BlueprintId="urs0202", 
+    Weapon = {
+        {
+        },
+        {
+        },
+        '',
+        {
+        },
+    }
+}
+
+# UEF T2 Cruiser
+UnitBlueprint { 
+    Merge = true, 
+    BlueprintId="ues0202", 
+    Weapon = {
+        {
+        },
+        {
+        },
+        {
+        },
+        '',
+    }
+}
+
+# Seraphim T2 Cruiser
+UnitBlueprint { 
+    Merge = true, 
+    BlueprintId="xss0202", 
+    Weapon = {
+        {
+            Damage = 400,
+        },
+        {
+        },
+        {
+        },
+        '',
+    }
+}
+
+# UEF T3 Battlecruiser
+UnitBlueprint {
+    Merge = true,
+    BlueprintId="xes0307",
+    Weapon = {
+        {
+            Damage = 132,
+        },
+        {
+            Damage = 132,
+        },
+        {
+            Damage = 180,
+            MuzzleSalvoSize = 8,
+            MuzzleSalvoDelay = 0.5,
+        },
+        {
+        },
+        {
+        },
+    },
+}
+
+
+# Aeon T3 Battleship
+UnitBlueprint {
+    Merge = true,
+    BlueprintId="uaa0302",
+    Weapon = {
+        {
+            Damage = 2200,
+            DamageRadius = 4,
+        },
+        {
+            Damage = 2200,
+            DamageRadius = 4,
+        },
+        {
+            Damage = 2200,
+            DamageRadius = 4,
+        },
+        {
+        },
+    },
+}
+
+# Cybran T3 Battleship
+UnitBlueprint {
+    Merge = true,
+    BlueprintId="urs0302",
+    Weapon = {
+        {
+            Damage = 1800,
+        },
+        {
+            Damage = 1800,
+        },
+        {
+            Damage = 18,
+        },
+        {
+            Damage = 18,
+        },
+        {
+            Damage = 50,
+        },
+        {
+        },
+        {
+        },
+    },
+}
+
+# UEF T3 Battleship
+UnitBlueprint {
+    Merge = true,
+    BlueprintId="ues0302",
+    Weapon = {
+        {
+            Damage = 1800,
+        },
+        {
+            Damage = 1800,
+        },
+        {
+            Damage = 1800,
+        },
+        {
+            Damage = 36,
+        },
+        {
+            Damage = 36,
+        },
+        {
+            Damage = 36,
+        },
+        {
+            Damage = 36,
+        },
+        {
+        },
+        {
+        },
+    },
+}
+
+# Seraphim T3 Battleship
+UnitBlueprint {
+    Merge = true,
+    BlueprintId="xss0302",
+    Weapon = {
+        {
+            Damage = 1080,
+        },
+        {
+            Damage = 1080,
+        },
+        {
+            Damage = 1080,
+        },
+        {
+        },
+        {
+        },
+        {
+            Damage = 48,
+            MuzzleVelocity = 60,
+        },
+        {
+            Damage = 48,
+            MuzzleVelocity = 60,
+        },
+        {
+        },
+    },
+}
+
+
+# Aeon Missile Sub Nuke
+ProjectileBlueprint {
+    Merge = true,
+    Source = '/projectiles/AIFQuantumWarhead03/AIFQuantumWarhead03_proj.bp',
+    Economy = {
+        BuildTime = 388800,
+        BuildCostMass = 14400,
+        BuildCostEnergy = 1620000,
+    },
+}
+
+# Cybran Missile Sub Nuke
+ProjectileBlueprint {
+    Merge = true,
+    Source = '/projectiles/CIFEMPFluxWarhead04/CIFEMPFluxWarhead04_proj.bp',
+    Economy = {
+        BuildTime = 388800,
+        BuildCostMass = 14400,
+        BuildCostEnergy = 1620000,
+    },
+}
+
+# UEF Missile Sub Nuke
+ProjectileBlueprint {
+    Merge = true,
+    Source = '/projectiles/TIFMissileNuke02/TIFMissileNuke02_proj.bp',
+    Economy = {
+        BuildTime = 388800,
+        BuildCostMass = 14400,
+        BuildCostEnergy = 1620000,
+    },
+}
+
+# Seraphim Battleship Nuke
+ProjectileBlueprint {
+    Merge = true,
+    Source = '/projectiles/SIFInainoStrategicMissile02/SIFInainoStrategicMissile02_proj.bp',
+    Economy = {
+        BuildTime = 388800,
+        BuildCostMass = 14400,
+        BuildCostEnergy = 1620000,
+    },
+}

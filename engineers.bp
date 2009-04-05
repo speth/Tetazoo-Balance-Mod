@@ -1,0 +1,87 @@
+UnitBlueprint { 
+    Merge = true, 
+    BlueprintId="ual0208", 
+    Economy = {
+        BuildCostMass = 130,
+        BuildCostEnergy = 680,
+        BuildTime = 640,
+    },
+} 
+
+UnitBlueprint { 
+    Merge = true, 
+    BlueprintId="url0208", 
+    Economy = {
+        BuildCostMass = 130,
+        BuildCostEnergy = 680,
+        BuildTime = 640,
+    },
+} 
+
+UnitBlueprint { 
+    Merge = true, 
+    BlueprintId="uel0208", 
+    Economy = {
+        BuildCostMass = 130,
+        BuildCostEnergy = 680,
+        BuildTime = 640,
+    },
+} 
+
+UnitBlueprint { 
+    Merge = true, 
+    BlueprintId="xsl0208", 
+    Economy = {
+        BuildCostMass = 130,
+        BuildCostEnergy = 680,
+        BuildTime = 640,
+    },
+} 
+
+UnitBlueprint { 
+    Merge = true, 
+    BlueprintId="ual0309", 
+    Economy = {
+        BuildCostMass = 320,
+        BuildCostEnergy = 2100,
+        BuildTime = 1400,
+        BuildRate = 20,
+    },
+} 
+
+
+UnitBlueprint { 
+    Merge = true, 
+    BlueprintId="url0309", 
+    Economy = {
+        BuildCostMass = 320,
+        BuildCostEnergy = 2100,
+        BuildTime = 1400,
+        BuildRate = 20,
+    },
+} 
+
+
+UnitBlueprint { 
+    Merge = true, 
+    BlueprintId="uel0309", 
+    Economy = {
+        BuildCostMass = 320,
+        BuildCostEnergy = 2100,
+        BuildTime = 1400,
+        BuildRate = 20,
+    },
+} 
+
+
+UnitBlueprint { 
+    Merge = true, 
+    BlueprintId="xsl0309", 
+    Economy = {
+        BuildCostMass = 320,
+        BuildCostEnergy = 2100,
+        BuildTime = 1400,
+        BuildRate = 20,
+    },
+} 
+

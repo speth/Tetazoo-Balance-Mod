@@ -1,0 +1,341 @@
+# Aeon T1 MLA (Fervor)
+UnitBlueprint { 
+    Merge = true, 
+    BlueprintId="ual0103", 
+    Economy = {
+        BuildCostMass = 48,
+        BuildCostEnergy = 240,
+        BuildTime = 240,
+    },
+} 
+
+# UEF T1 MLA (Lobo)
+UnitBlueprint {
+    Merge = true, 
+    BlueprintId="uel0103", 
+    Economy = {
+        BuildCostMass = 48,
+        BuildCostEnergy = 240,
+        BuildTime = 240,
+    },
+} 
+
+# Cybran T1 MLA (Medusa)
+UnitBlueprint {
+    Merge = true, 
+    BlueprintId="url0103", 
+    Weapon = {
+        {
+            # Damage = 195,
+            Damage = 244,
+            # FiringRandomness = 1.5,
+            FiringRandomess = 0.75,
+        },
+    },
+}
+
+# Seraphim T1 MLA (Zthuee)
+UnitBlueprint {
+    Merge = true, 
+    BlueprintId="xsl0103", 
+    Economy = {
+        BuildCostMass = 60,
+        BuildCostEnergy = 225,
+        BuildTime = 225,
+    },
+}
+
+
+# Aeon T2 Mobile Missile Launcher
+UnitBlueprint {
+    Merge = true, 
+    BlueprintId="ual0111", 
+    Weapon = {
+        {
+            MaxRadius = 65,
+            # Damage = 400,
+            Damage = 600,
+            # DamageRadius = 1,
+            DamageRadius = 2,
+        },
+    },
+}
+
+# UEF T2 Mobile Missile Launcher
+UnitBlueprint {
+    Merge = true, 
+    BlueprintId="uel0111", 
+    Weapon = {
+        {
+            MaxRadius = 65,
+            # Damage = 200,
+            Damage = 300,
+            # DamageRadius = 0.5,
+            DamageRadius = 1.5,
+        },
+    },
+}
+
+# Cybran T2 Mobile Missile Launcher
+UnitBlueprint {
+    Merge = true, 
+    BlueprintId="url0111", 
+    Weapon = {
+        {
+            MaxRadius = 65,
+            # Damage = 120,
+            Damage = 180,
+            # DamageRadius = 0.5,
+            DamageRadius = 1.5,
+        },
+    },
+}
+
+# Seraphim T2 Mobile Missile Launcher
+UnitBlueprint {
+    Merge = true, 
+    BlueprintId="xsl0111", 
+    Weapon = {
+        {
+            MaxRadius = 65,
+            # Damage = 270,
+            Damage = 405,
+            # DamageRadius = 0.5,
+            DamageRadius = 1.5,
+        },
+    },
+}
+
+# Seraphim T3 Mobile Shield Generator
+UnitBlueprint {
+    Merge = true,
+    BlueprintId="xsl0307", 
+    Economy = {
+        BuildCostMass = 450,
+        BuildCostEnergy = 3375,
+        BuildTime = 2250,
+    },
+}
+
+# Cybran T2 Mobile Stealth Generator (Deceiver)
+UnitBlueprint {
+    Merge = true, 
+    BlueprintId="url0306",
+    Intel = {
+        RadarStealthFieldRadius = 22,
+        SonarStealthFieldRadius = 22,
+    },
+    Physics = {
+        MaxSpeed = 4,
+    },
+}
+
+# UEF T2 Field Engineer (Sparky)
+UnitBlueprint {
+    Merge = true, 
+    BlueprintId="xel0209",
+    Economy = {
+        BuildCostMass = 175,
+        BuildCostEnergy = 800,
+        BuildTime = 800,
+        BuildableCategory = {
+            'BUILTBYTIER2ENGINEER UEF',
+        },
+    },
+    Intel = {
+        JamRadius = {
+            Max = 16,
+            Min = 16,
+        },
+    },
+    RadarRadius = 45,
+    JammerBlips = 8,
+}
+
+# Aeon T2 Hover tank (Blaze)
+UnitBlueprint {
+    Merge = true,
+    BlueprintId = "xal0203",
+    Intel = {
+        VisionRadius = 25,
+    },
+    Physics = {
+        MaxSpeed = 4,
+    },
+    Weapon = {
+        {
+            Damage = 20,
+        },
+    },
+}
+
+# UEF T2 Hover tank (Blaze)
+UnitBlueprint {
+    Merge = true,
+    BlueprintId = "uel0203",
+    Intel = {
+        VisionRadius = 25,
+    },
+    Physics = {
+        MaxSpeed = 4,
+    },
+    Weapon = {
+        {
+            MaxRadius = 22,
+        },
+    },
+}
+
+# Cybran T2 Amphibious Tank (Wagner)
+UnitBlueprint {
+    Merge = true,
+    BlueprintId = "url0203",
+    Intel = {
+        VisionRadius = 20,
+        WaterVisionRadius = 25,
+    },
+    Physics = {
+        MaxSpeed = 4,
+    },
+    Weapon = {
+        {
+        },
+        {
+        },
+        {
+            Damage = 60,
+        },
+    },
+}
+
+# Aeon T3 Mobile Heavy Artillery
+UnitBlueprint {
+    Merge = true, 
+    BlueprintId="ual0304",
+    Defense = {
+        Health = 1200,
+        MaxHealth = 1200,
+    },
+    Weapon = {
+        {
+            MaxRadius = 100,
+            # Damage = 95,
+            Damage = 126,
+            RateOfFire = 0.075,
+        },
+    },
+}
+
+# UEF T3 Mobile Heavy Artillery
+UnitBlueprint {
+    Merge = true, 
+    BlueprintId="uel0304",
+    Defense = {
+        Health = 1275,
+        MaxHealth = 1275,
+    },
+    Weapon = {
+        {
+            MaxRadius = 100,
+            # Damage = 750,
+            Damage = 1000,
+            RateOfFire = 0.15,
+        },
+    },
+}
+
+# Cybran T3 Mobile Heavy Artillery
+UnitBlueprint {
+    Merge = true, 
+    BlueprintId="url0304",
+    Defense = {
+        Health = 1125,
+        MaxHealth = 1125,
+    },
+    Weapon = {
+        {
+            MaxRadius = 100,
+            # Damage = 450,
+            Damage = 600,
+            RateOfFire = 0.225,
+        },
+    },
+}
+
+# Seraphim T3 Mobile Heavy Artillery
+UnitBlueprint {
+    Merge = true, 
+    BlueprintId="xsl0304",
+    Defense = {
+        Health = 1225,
+        MaxHealth = 1225,
+    },
+    Weapon = {
+        {
+            MaxRadius = 100,
+            # Damage = 700,
+            Damage = 934,
+            RateOfFire = 0.15,
+        },
+    },
+}
+
+# UEF T3 Mobile Missile Launcher (Spearhead)
+UnitBlueprint {
+    Merge = true,
+    BlueprintId="xel0306",
+    Defense = {
+        Health = 2040,
+        MaxHealth = 2040,
+    },
+    Weapon = {
+        {
+            MaxRadius = 90,
+            # Damage = 400,
+            Damage = 800,
+        },
+    },
+}
+
+# Aeon T3 Sniper Bot (Sprite Striker)
+UnitBlueprint {
+    Merge = true,
+    BlueprintId="xal0305",
+    Weapon = {
+        {
+            # Damage = 1300,
+            Damage = 1625,
+        },
+    },
+}
+
+# Seraphim T3 Sniper Bot (Usha-Ah)
+UnitBlueprint {
+    Merge = true,
+    BlueprintId="xal0305",
+    Weapon = {
+        {
+            # Damage = 750,
+            Damage = 937,
+        },
+        {
+            # Damage = 2800,
+            Damage = 3500,
+        },
+    },
+}
+
+# Cybran Armored Assault Bot (The Brick)
+UnitBlueprint {
+    Merge = true,
+    BlueprintId="xrl0305",
+    Weapon = {
+        {
+        },
+        {
+            Damage = 20,
+        },
+        {
+        },
+    },
+}

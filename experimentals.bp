@@ -1,0 +1,589 @@
+# Colossus
+UnitBlueprint { 
+    Merge = true, 
+    BlueprintId="ual0401",
+    Economy = {
+        BuildCostMass = 28000,
+        BuildCostEnergy = 350000,
+        BuildTime = 42000,
+    },
+    Categories = {
+        'PRODUCTSC1',
+        'SELECTABLE',
+        'BUILTBYTIER4COMMANDER',
+        'BUILTBYTIER4ENGINEER',
+        'AEON',
+        'MOBILE',
+        'LAND',
+        'DIRECTFIRE',
+        'EXPERIMENTAL',
+        'NEEDMOBILEBUILD',
+        'VISIBLETORECON',
+        'RECLAIMABLE',
+        'DRAGBUILD',
+        'OVERLAYDIRECTFIRE',
+        'OVERLAYOMNI',
+    },
+    Weapon = {
+        {
+        },
+        {
+            RateOfFire = 1.5,
+        },
+        {
+            RateOfFire = 1.5,
+        },
+        {
+        },
+    },
+} 
+
+# CZAR
+UnitBlueprint { 
+    Merge = true, 
+    BlueprintId="uaa0310",
+    Economy = {
+        BuildCostMass = 42750,
+        BuildCostEnergy = 695000,
+        BuildTime = 64000,
+    },
+    Categories = {
+        'PRODUCTSC1',
+        'SELECTABLE',
+        'BUILTBYTIER4COMMANDER',
+        'BUILTBYTIER4ENGINEER',
+        'AEON',
+        'MOBILE',
+        'AIR',
+        'HIGHALTAIR',
+        'EXPERIMENTAL',
+        'AIRSTAGINGPLATFORM',
+        'CARRIER',
+        'NEEDMOBILEBUILD',
+        'VISIBLETORECON',
+        'RECLAIMABLE',
+        'DRAGBUILD',
+        'FACTORY',
+        'TARGETCHASER',
+        'SHOWATTACKRETICLE',
+        'SHOWQUEUE',
+        'OVERLAYANTIAIR',
+        'OVERLAYANTINAVY',
+        'OVERLAYRADAR',
+        'OVERLAYSONAR',
+        'OVERLAYMISC',
+        'CANNOTUSEAIRSTAGING',
+    },
+}
+
+# Tempest
+UnitBlueprint { 
+    Merge = true, 
+    BlueprintId="uas0401",
+    Economy = {
+        BuildCostMass = 26600,
+        BuildCostEnergy = 332500,
+        BuildTime = 22800,
+    },
+    Categories = {
+        'PRODUCTSC1',
+        'SELECTABLE',
+        'BUILTBYTIER4COMMANDER',
+        'BUILTBYTIER4ENGINEER',
+        'AEON',
+        'MOBILE',
+        'NAVAL',
+        'EXPERIMENTAL',
+        'DIRECTFIRE',
+        'SUBMERSIBLE',
+        'INTELLIGENCE',
+        'FACTORY',
+        'CARRIER',
+        'NEEDMOBILEBUILD',
+        'VISIBLETORECON',
+        'RECLAIMABLE',
+        'SHOWATTACKRETICLE',
+        'DRAGBUILD',
+        'BATTLESHIP',
+        'SHOWQUEUE',
+        'OVERLAYRADAR',
+        'OVERLAYSONAR',
+        'OVERLAYDEFENSE',
+        'OVERLAYANTINAVY',
+        'OVERLAYDIRECTFIRE',
+    },
+    Weapon = {
+        {
+            RateOfFire = 0.25,
+        },
+        {
+            Damage = 352,
+        },
+        {
+        },
+    },
+}
+
+# Paragon
+UnitBlueprint { 
+    Merge = true, 
+    BlueprintId="xab1401",
+    Economy = {
+        BuildCostMass = 378000,
+        BuildCostEnergy = 11340000,
+        BuildTime = 324000,
+    },
+    Categories = {
+        'PRODUCTFA',
+        'SELECTABLE',
+        'BUILTBYTIER4ENGINEER',
+        'BUILTBYTIER4COMMANDER',
+        'AEON',
+        'STRUCTURE',
+        'ECONOMIC',
+        'EXPERIMENTAL',
+        'ENERGYPRODUCTION',
+        'MASSPRODUCTION',
+        'MASSFABRICATION',
+        'DRAGBUILD',
+        'SIZE12',
+        'VISIBLETORECON',
+        'RECLAIMABLE',
+        'SORTECONOMY',
+    },
+}
+
+# Salvation
+UnitBlueprint { 
+    Merge = true, 
+    BlueprintId="xab2307",
+    Economy = {
+        BuildCostMass = 299700,
+        BuildCostEnergy = 5994000,
+        BuildTime = 199800,
+    },
+    StrategicIconName = 'icon_experimental_generic',
+    Categories = {
+        'PRODUCTFA',
+        'SELECTABLE',
+        'BUILTBYTIER4ENGINEER',
+        'BUILTBYTIER4COMMANDER',
+        'AEON',
+        'STRUCTURE',
+        'STRATEGIC',
+        'EXPERIMENTAL',
+        'INDIRECTFIRE',
+        'ARTILLERY',
+        'DRAGBUILD',
+        'SIZE20',
+        'VISIBLETORECON',
+        'RECLAIMABLE',
+        'OVERLAYINDIRECTFIRE',
+        'SORTSTRATEGIC',
+    },
+
+}
+
+
+# Monkeylord
+UnitBlueprint { 
+    Merge = true, 
+    BlueprintId="url0402", 
+    Economy = {
+        BuildCostMass = 20000,
+        BuildCostEnergy = 250000,
+        BuildTime = 30000,
+    },
+    Categories = {
+        'PRODUCTSC1',
+        'SELECTABLE',
+        'BUILTBYTIER4COMMANDER',
+        'BUILTBYTIER4ENGINEER',
+        'CYBRAN',
+        'MOBILE',
+        'LAND',
+        'EXPERIMENTAL',
+        'DIRECTFIRE',
+        'ANTIAIR',
+        'NEEDMOBILEBUILD',
+        'SONAR',
+        'VISIBLETORECON',
+        'RECLAIMABLE',
+        'DRAGBUILD',
+        'OVERLAYDIRECTFIRE',
+        'OVERLAYSONAR',
+        'OVERLAYANTIAIR',
+        'OVERLAYANTINAVY',
+    },
+} 
+
+# Megalith
+UnitBlueprint { 
+    Merge = true, 
+    BlueprintId="xrl0403", 
+    Economy = {
+        BuildCostMass = 37000,
+        BuildCostEnergy = 430000,
+        BuildTime = 37000,
+    },
+    Categories = {
+        'PRODUCTFA',
+        'SELECTABLE',
+        'BUILTBYTIER4COMMANDER',
+        'BUILTBYTIER4ENGINEER',
+        'CYBRAN',
+        'MOBILE',
+        'LAND',
+        'EXPERIMENTAL',
+        'CONSTRUCTION',
+        'DIRECTFIRE',
+        'ANTIAIR',
+        'NEEDMOBILEBUILD',
+        'SONAR',
+        'VISIBLETORECON',
+        'RECLAIMABLE',
+        'DRAGBUILD',
+        'SHOWQUEUE',
+        'OVERLAYANTIAIR',
+        'OVERLAYSONAR',
+        'OVERLAYANTINAVY',
+        'OVERLAYDEFENSE',
+        'OVERLAYDIRECTFIRE',
+    },
+}
+
+# Soul Ripper
+UnitBlueprint { 
+    Merge = true, 
+    BlueprintId="ura0401",
+    Economy = {
+        BuildTime = 60000,
+    },
+    Categories = {
+        'PRODUCTSC1',
+        'SELECTABLE',
+        'BUILTBYTIER4COMMANDER',
+        'BUILTBYTIER4ENGINEER',
+        'CYBRAN',
+        'MOBILE',
+        'AIR',
+        'EXPERIMENTAL',
+        'GROUNDATTACK',
+        'NEEDMOBILEBUILD',
+        'ANTIAIR',
+        'VISIBLETORECON',
+        'RECLAIMABLE',
+        'DRAGBUILD',
+        'SHOWATTACKRETICLE',
+        'OVERLAYANTIAIR',
+        'OVERLAYDIRECTFIRE',
+        'CANNOTUSEAIRSTAGING',
+    },
+}
+
+# Scathis
+UnitBlueprint { 
+    Merge = true, 
+    BlueprintId="url0401", 
+    Economy = {
+        BuildTime = 199800,
+    },
+    Categories = {
+        'PRODUCTSC1',
+        'SELECTABLE',
+        'BUILTBYTIER4COMMANDER',
+        'BUILTBYTIER4ENGINEER',
+        'CYBRAN',
+        'MOBILE',
+        'LAND',
+        'EXPERIMENTAL',
+        'INDIRECTFIRE',
+        'ARTILLERY',
+        'NEEDMOBILEBUILD',
+        'VISIBLETORECON',
+        'RECLAIMABLE',
+        'SHOWATTACKRETICLE',
+        'DRAGBUILD',
+        'OVERLAYINDIRECTFIRE',
+    },
+    Weapon = {
+        {
+            Damage = 5000,
+        },
+    },
+}
+
+# Fatboy
+UnitBlueprint { 
+    Merge = true, 
+    BlueprintId="uel0401",
+    Economy = {
+        BuildCostMass = 27000,
+        BuildCostEnergy = 337500,
+        BuildTime = 40500,
+    },
+    Categories = {
+        'PRODUCTSC1',
+        'SELECTABLE',
+        'BUILTBYTIER4COMMANDER',
+        'BUILTBYTIER4ENGINEER',
+        'UEF',
+        'MOBILE',
+        'LAND',
+        'EXPERIMENTAL',
+        'INDIRECTFIRE',
+        'ARTILLERY',
+        'CONSTRUCTION',
+        'AIRSTAGINGPLATFORM',
+        'FACTORY',
+        'NEEDMOBILEBUILD',
+        'ANTIAIR',
+        'VISIBLETORECON',
+        'RECLAIMABLE',
+        'DRAGBUILD',
+        'SHOWQUEUE',
+        'OVERLAYMISC',
+        'OVERLAYANTIAIR',
+        'OVERLAYDEFENSE',
+        'OVERLAYANTINAVY',
+        'OVERLAYDIRECTFIRE',
+        'OVERLAYMISC',
+    },
+}
+
+# Atlantis
+UnitBlueprint { 
+    Merge = true,
+    BlueprintId="ues0401",
+    Economy = {
+        BuildTime = 18000,
+    },
+    Categories = {
+        'PRODUCTSC1',
+        'SELECTABLE',
+        'BUILTBYTIER4COMMANDER',
+        'BUILTBYTIER4ENGINEER',
+        'UEF',
+        'MOBILE',
+        'NAVAL',
+        'EXPERIMENTAL',
+        'SUBMERSIBLE',
+        'AIRSTAGINGPLATFORM',
+        'INTELLIGENCE',
+        'RADAR',
+        'REPAIR',
+        'CARRIER',
+        'NEEDMOBILEBUILD',
+        'VISIBLETORECON',
+        'RECLAIMABLE',
+        'DRAGBUILD',
+        'FACTORY',
+        'NAVALCARRIER',
+        'SHOWQUEUE',
+        'OVERLAYANTIAIR',
+        'OVERLAYRADAR',
+        'OVERLAYSONAR',
+        'OVERLAYANTINAVY',
+        'OVERLAYMISC',
+    },
+    Weapon = {
+        {
+        },
+        {
+            EffectiveRadius = 70,
+            MaxRadius = 80,
+            MuzzleVelocity = 45,
+            ProjectileLifetime = 7,
+            Damage = 520,
+        },
+        {
+            EffectiveRadius = 70,
+            MaxRadius = 80,
+            MuzzleVelocity = 45,
+            ProjectileLifetime = 7,
+            Damage = 520,
+        },
+        {
+            EffectiveRadius = 70,
+            MaxRadius = 80,
+            MuzzleVelocity = 45,
+            ProjectileLifetime = 7,
+            Damage = 520,
+        },
+        {
+            EffectiveRadius = 70,
+            MaxRadius = 80,
+            MuzzleVelocity = 45,
+            ProjectileLifetime = 7,
+            Damage = 520,
+        },
+    },
+}
+
+# Mavor
+UnitBlueprint { 
+    Merge = true, 
+    BlueprintId="ueb2401",
+    Economy = {
+        BuildTime = 199800,
+    },
+    Categories = {
+        'PRODUCTSC1',
+        'SELECTABLE',
+        'BUILTBYTIER4COMMANDER',
+        'BUILTBYTIER4ENGINEER',
+        'UEF',
+        'STRUCTURE',
+        'STRATEGIC',
+        'EXPERIMENTAL',
+        'INDIRECTFIRE',
+        'ARTILLERY',
+        'DRAGBUILD',
+        'SIZE16',
+        'VISIBLETORECON',
+        'RECLAIMABLE',
+        'SHOWATTACKRETICLE',
+        'DRAGBUILD',
+        'OVERLAYINDIRECTFIRE',
+    },
+    Weapon = {
+        {     
+            Damage = 16000,
+        },
+    },
+}
+
+# Novax Center
+UnitBlueprint { 
+    Merge = true, 
+    BlueprintId="xeb2402",
+    Economy = { 
+        BuildTime = 55800,
+    },
+    Categories = {
+        'PRODUCTFA',
+        'UEF',
+        'STRUCTURE',
+        'BUILTBYTIER4COMMANDER',
+        'BUILTBYTIER4ENGINEER',
+        'EXPERIMENTAL',
+        'ORBITALSYSTEM',
+        'SELECTABLE',
+        'LAND',
+        'VISIBLETORECON',
+        'RECLAIMABLE',
+        'DRAGBUILD',
+    },
+}
+
+# Novax Satellite
+UnitBlueprint {
+    Merge = true,
+    BlueprintId="xea0002",
+    Intel = {
+        VisionRadius = 35,
+    },
+    Physics = {
+        MaxSpeed = 15,
+    },
+    Weapon = {
+        {
+            FireTargetLayerCapsTable = {
+                Air = 'Air|Land|Water|Seabed',
+                Land = 'Air|Land|Water|Seabed',
+                Water = 'Air|Land|Water|Seabed',
+            },
+
+            BeamLifetime = 4,
+            Damage = 225,
+        },
+        {
+            Damage = 1000, # Death weapon
+        },
+    },
+}
+
+
+# Ythotha
+UnitBlueprint { 
+    Merge = true, 
+    BlueprintId="xsl0401",
+    Economy = {
+        BuildCostMass = 25000,
+        BuildCostEnergy = 312500,
+        BuildTime = 37500,
+    },
+    Categories = {
+        'PRODUCTFA',
+        'SELECTABLE',
+        'BUILTBYTIER4COMMANDER',
+        'BUILTBYTIER4ENGINEER',
+        'SERAPHIM',
+        'MOBILE',
+        'LAND',
+        'DIRECTFIRE',
+        'EXPERIMENTAL',
+        'NEEDMOBILEBUILD',
+        'VISIBLETORECON',
+        'RECLAIMABLE',
+        'OVERLAYDIRECTFIRE',
+        'OVERLAYANTIAIR',
+        'DRAGBUILD',
+        'SHOWATTACKRETICLE',
+    },
+}
+
+# Ahwassa
+UnitBlueprint { 
+    Merge = true, 
+    BlueprintId="xsa0402",
+    Economy = {
+        BuildCostMass = 52800,
+        BuildCostEnergy = 858000,
+        BuildTime = 79200,
+    },
+    Categories = {
+        'PRODUCTFA',
+        'SELECTABLE',
+        'BUILTBYTIER4COMMANDER',
+        'BUILTBYTIER4ENGINEER',
+        'SERAPHIM',
+        'MOBILE',
+        'AIR',
+        'HIGHALTAIR',
+        'EXPERIMENTAL',
+        'NEEDMOBILEBUILD',
+        'VISIBLETORECON',
+        'RECLAIMABLE',
+        'ANTIAIR',
+        'SHOWATTACKRETICLE',
+        'OVERLAYANTIAIR',
+        'DRAGBUILD',
+    },
+}
+
+# Yolona Oss
+UnitBlueprint { 
+    Merge = true,
+    BlueprintId="xsb2401",
+    Economy = {
+        BuildTime = 250200,
+    },
+    Categories = {
+        'PRODUCTFA',
+        'SELECTABLE',
+        'BUILTBYTIER4ENGINEER',
+        'BUILTBYTIER4COMMANDER',
+        'SERAPHIM',
+        'STRUCTURE',
+        'STRATEGIC',
+        'EXPERIMENTAL',
+        'NUKE',
+        'SILO',
+        'DRAGBUILD',
+        'SIZE12',
+        'VISIBLETORECON',
+        'RECLAIMABLE',
+        'SORTSTRATEGIC',
+    },
+}

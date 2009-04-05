@@ -1,0 +1,205 @@
+# Eye of Rhianne
+UnitBlueprint { 
+    Merge = true, 
+    BlueprintId = "xab3301",
+    Economy = {
+        BuildCostMass = 4800,
+        BuildCostEnergy = 80000,
+        BuildTime = 5400,
+    },
+} 
+
+# Soothsayer
+UnitBlueprint {
+    Merge = true,
+    BlueprintId = "xrb3301",
+    Economy = {
+        BuildCostMass = 2400,
+        BuildCostEnergy = 40000,
+        BuildTime = 2600,
+        MaintenanceConsumptionPerSecondEnergy = 2000,
+    },
+}
+
+# Aeon TMD (fix for broken CBFP V3 behavior)
+UnitBlueprint {
+    Merge = true,
+    BlueprintId = "uab4201", #T2 tactical missile defense
+    CollisionOffsetY = -0.25, # fix for TMD cannot be hit by torpedoes [145]
+    Weapon = {
+        {
+            EffectiveRadius = 10, # to correct the wrong TMD range display bug [129]
+            MaxRadius = 30,
+      RangeCategory = 'false',
+        },
+        {                # dummy weapon to show correct range circle
+      EffectiveRadius = 10,             
+      MaxRadius = 10,
+      RangeCategory = 'UWRC_Countermeasure',
+     },
+    },
+} 
+
+# Aeon SMD
+UnitBlueprint {
+    Merge = true,
+    BlueprintId = "uab4302",
+    Defense = {
+        Health = 14000,
+        MaxHealth = 14000,
+    },
+}
+
+# Cybran SMD
+UnitBlueprint {
+    Merge = true,
+    BlueprintId = "urb4302",
+    Defense = {
+        Health = 14000,
+        MaxHealth = 14000,
+    },
+}
+
+# UEF SMD
+UnitBlueprint {
+    Merge = true,
+    BlueprintId = "ueb4302",
+    Defense = {
+        Health = 14000,
+        MaxHealth = 14000,
+    },
+}
+
+# Seraphim SMD
+UnitBlueprint {
+    Merge = true,
+    BlueprintId = "xsb4302",
+    Defense = {
+        Health = 14000,
+        MaxHealth = 14000,
+    },
+}
+
+# Aeon SML
+UnitBlueprint {
+    Merge = true,
+    BlueprintId = "uab2305",
+    Economy = {
+        BuildCostMass = 18000,
+        BuildCostEnergy = 250000,
+        BuildTime = 18000,
+    },
+}
+
+# Cybran SML
+UnitBlueprint {
+    Merge = true,
+    BlueprintId = "urb2305",
+    Economy = {
+        BuildCostMass = 18000,
+        BuildCostEnergy = 250000,
+        BuildTime = 18000,
+    },
+}
+
+# UEF SML
+UnitBlueprint {
+    Merge = true,
+    BlueprintId = "ueb2305",
+    Economy = {
+        BuildCostMass = 18000,
+        BuildCostEnergy = 250000,
+        BuildTime = 18000,
+    },
+}
+
+# Seraphim SML
+UnitBlueprint {
+    Merge = true,
+    BlueprintId = "xsb2305",
+    Economy = {
+        BuildCostMass = 18000,
+        BuildCostEnergy = 250000,
+        BuildTime = 18000,
+    },
+}
+
+# Aeon Quantum Gateway
+UnitBlueprint {
+    Merge = true,
+    BlueprintId = "uab0304",
+    Economy = {
+        BuildRate = 1200,
+    },
+}
+
+# Cybran Quantum Gateway
+UnitBlueprint {
+    Merge = true,
+    BlueprintId = "urb0304",
+    Economy = {
+        BuildRate = 1200,
+    },
+}
+
+# UEF Quantum Gateway
+UnitBlueprint {
+    Merge = true,
+    BlueprintId = "ueb0304",
+    Economy = {
+        BuildRate = 1200,
+    },
+}
+
+# Seraphim Quantum Gateway
+UnitBlueprint {
+    Merge = true,
+    BlueprintId = "xsb0304",
+    Economy = {
+        BuildRate = 1200,
+    },
+}
+
+# Naval Factories
+UnitBlueprint {
+    Merge = true,
+    BlueprintId = "uab0103", # T1 naval factory
+    CollisionOffsetY = -0.25, # fix for some aquatic buildings can't be hit properly by torpedoes [145]
+}
+UnitBlueprint {
+    Merge = true,
+    BlueprintId = "uab0203", # T2 naval factory
+    CollisionOffsetY = -0.25, # fix for some aquatic buildings can't be hit properly by torpedoes [145]
+}
+UnitBlueprint {
+    Merge = true,
+    BlueprintId = "uab0303", # T3 naval factory
+    CollisionOffsetY = -0.25, # fix for some aquatic buildings can't be hit properly by torpedoes [145]
+}
+
+UnitBlueprint {
+    Merge = true,
+    BlueprintId = "tab0303", # T3 naval factory
+    CollisionOffsetY = -0.25, # fix for some aquatic buildings can't be hit properly by torpedoes [145]
+}
+
+UnitBlueprint {
+    Merge = true,
+    BlueprintId = "urb0103", # T1 naval factory
+    CollisionOffsetY = -0.25, # fix for some aquatic buildings can't be hit properly by torpedoes [145]
+}
+UnitBlueprint {
+    Merge = true,
+    BlueprintId = "urb0203", # T2 naval factory
+    CollisionOffsetY = -0.25, # fix for some aquatic buildings can't be hit properly by torpedoes [145]
+}
+UnitBlueprint {
+    Merge = true,
+    BlueprintId = "urb0303", # T3 naval factory
+    CollisionOffsetY = -0.25, # fix for some aquatic buildings can't be hit properly by torpedoes [145]
+}
+UnitBlueprint {
+    Merge = true,
+    BlueprintId = "trb0303", # T3 naval factory
+    CollisionOffsetY = -0.25, # fix for some aquatic buildings can't be hit properly by torpedoes [145]
+}

@@ -1,0 +1,261 @@
+###################
+### MOBILE FLAK ###
+###################
+
+# UEF Mobile Flak
+UnitBlueprint {
+    Merge = true,
+    BlueprintId="uel0205",
+    Economy = {
+        BuildCostEnergy = 1000,
+        BuildCostMass = 200,
+        BuildTime = 1000,
+    },
+    Weapon = {
+        {
+            Damage = 24,
+            DamageRadius = 2.5,
+            MuzzleVelocity = 60,
+            TurretPitchSpeed = 360,
+            TurretYawSpeed = 360,
+        },
+    },
+}
+
+# Aeon Mobile Flak
+UnitBlueprint {
+    Merge = true,
+    BlueprintId="ual0205",
+    Economy = {
+        BuildCostEnergy = 1000,
+        BuildCostMass = 200,
+        BuildTime = 1000,
+    },
+    Weapon = {
+        {
+            Damage = 48,
+            DamageRadius = 2.5,
+            MuzzleVelocity = 60,
+            TurretPitchSpeed = 360,
+            TurretYawSpeed = 360,
+        },
+    },
+}
+
+# Cybran Mobile Flak
+UnitBlueprint {
+    Merge = true,
+    BlueprintId="url0205",
+    Economy = {
+        BuildCostEnergy = 1000,
+        BuildCostMass = 200,
+        BuildTime = 1000,
+    },
+    Weapon = {
+        {
+            Damage = 60,
+            DamageRadius = 2.5,
+            MuzzleVelocity = 60,
+            TurretPitchSpeed = 360,
+            TurretYawSpeed = 360,
+        },
+    },
+}
+
+# Seraphim Mobile Flak
+UnitBlueprint {
+    Merge = true,
+    BlueprintId="xsl0205",
+    Economy = {
+        BuildCostEnergy = 1000,
+        BuildCostMass = 200,
+        BuildTime = 1000,
+    },
+    Weapon = {
+        {
+            Damage = 48,
+            DamageRadius = 2.5,
+            MuzzleVelocity = 60,
+            TurretPitchSpeed = 360,
+            TurretYawSpeed = 360,
+        },
+    },
+}
+
+###################
+### STATIC FLAK ###
+###################
+
+# UEF Static Flak
+UnitBlueprint { 
+    Merge = true, 
+    BlueprintId="ueb2204",
+    Weapon = {
+        {
+            Damage = 153,
+            DamageRadius = 4,
+            MaxRadius = 50,
+            MuzzleVelocity = 60,
+            TurretPitchSpeed = 360,
+            TurretYawSpeed = 360,
+        },
+    },
+} 
+
+# Aeon Static Flak
+UnitBlueprint { 
+    Merge = true, 
+    BlueprintId="uab2204",
+    Weapon = {
+        {
+            Damage = 225,
+            DamageRadius = 4,
+            MaxRadius = 50,
+            MuzzleVelocity = 60,
+            TurretPitchSpeed = 360,
+            TurretYawSpeed = 360,
+        },
+    },
+} 
+
+# Cybran Static Flak
+UnitBlueprint { 
+    Merge = true, 
+    BlueprintId="urb2204",
+    Weapon = {
+        {
+            Damage = 57,
+            DamageRadius = 4,
+            MaxRadius = 50,
+            MuzzleVelocity = 60,
+            TurretPitchSpeed = 360,
+            TurretYawSpeed = 360,
+        },
+    },
+} 
+
+# Seraphim Static Flak
+UnitBlueprint { 
+    Merge = true, 
+    BlueprintId="xsb2204",
+    Weapon = {
+        {
+            Damage = 80,
+            DamageRadius = 4,
+            MaxRadius = 50,
+            MuzzleVelocity = 60,
+            TurretPitchSpeed = 360,
+            TurretYawSpeed = 360,
+        },
+    },
+} 
+
+###################
+### STATIC SAMs ###
+###################
+
+# UEF SAM
+UnitBlueprint {
+    Merge = true,
+    BlueprintId="ueb2304",
+    Defense = {
+        Health = 4500,
+        MaxHealth = 4500,
+    },
+    Weapon = {
+        {
+            Damage = 220,
+            MaxRadius = 80,
+            MuzzleVelocity = 40,
+            ProjectileLifetime = 8,
+            RateOfFire = 0.4,
+        },
+    },
+}
+
+ProjectileBlueprint {
+    Merge = true,
+    Source = '/projectiles/TAAMissileFlayer01/TAAMissileFlayer01_proj.bp',
+    Physics = {
+        InitialSpeed = 40,
+        Lifetime = 12,
+        MaxSpeed = 80,
+    },
+}
+
+# Aeon SAM
+UnitBlueprint {
+    Merge = true,
+    BlueprintId="uab2304",
+    Defense = {
+        Health = 4500,
+        MaxHealth = 4500,
+    },
+    Weapon = {
+        {
+            Damage = 660,
+            MaxRadius = 80,
+            MuzzleVelocity = 40,
+            ProjectileLifetime = 8,
+            RateOfFire = 0.4,
+        },
+    },
+}
+
+ProjectileBlueprint {
+    Merge = true,
+    Source = '/projectiles/AAAZealotMissile01/AAAZealotMissile01_proj.bp',
+    Physics = {
+        InitialSpeed = 40,
+        Lifetime = 12,
+        MaxSpeed = 80,
+    },
+}
+
+# Cybran SAM
+UnitBlueprint {
+    Merge = true,
+    BlueprintId="urb2304",
+    Defense = {
+        Health = 4500,
+        MaxHealth = 4500,
+    },
+    Weapon = {
+        {
+            Damage = 330,
+            MaxRadius = 80,
+            MuzzleVelocity = 40,
+            ProjectileLifetime = 8,
+            RateOfFire = 0.4,
+        },
+    },
+}
+
+ProjectileBlueprint {
+    Merge = true,
+    Source = '/projectiles/CAAMissileNanite02/CAAMissileNanite02_proj.bp',
+    Physics = {
+        InitialSpeed = 40,
+        Lifetime = 12,
+        MaxSpeed = 80,
+    },
+}
+
+# Seraphim Not-a-SAM
+UnitBlueprint {
+    Merge = true,
+    BlueprintId="xsb2304",
+    Defense = {
+        Health = 4500,
+        MaxHealth = 4500,
+    },
+    Weapon = {
+        {
+            Damage = 660,
+            MaxRadius = 80,
+            MuzzleVelocity = 90,
+            ProjectileLifetime = 5,
+            RateOfFire = 0.4,
+        },
+    },
+}

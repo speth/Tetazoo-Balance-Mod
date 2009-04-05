@@ -1,0 +1,67 @@
+# Aeon (Emissary)
+UnitBlueprint { 
+    Merge = true, 
+    BlueprintId="uab2302", 
+    Economy = {
+        BuildCostMass = 80000,
+        BuildCostEnergy = 800000,
+        BuildTime = 53333,
+    },
+    Weapon = {
+        {
+            RateOfFire = 0.065,
+            FiringRandomness = 0.1875,
+        },
+    },
+} 
+
+# Cybran (Disruptor)
+UnitBlueprint { 
+    Merge = true, 
+    BlueprintId="urb2302", 
+    Economy = {
+        BuildCostMass = 70000,
+        BuildCostEnergy = 700000,
+        BuildTime = 46666,
+    },
+    Weapon = {
+        {
+            Damage = 6000,
+            FiringRandomness = 0.375,
+        },
+    },
+} 
+
+# UEF (Duke)
+UnitBlueprint { 
+    Merge = true, 
+    BlueprintId="ueb2302", 
+    Economy = {
+        BuildCostMass = 75000,
+        BuildCostEnergy = 750000,
+        BuildTime = 50000,
+    },
+    Weapon = {
+        {
+            Damage = 7150,
+            FiringRandomness = 0.25,
+        },
+    },
+}
+
+# Seraphim (Hovatham)
+UnitBlueprint {
+    Merge = true,
+    BlueprintId="xsb2302", 
+    Economy = {
+        BuildCostMass = 75000,
+        BuildCostEnergy = 750000,
+        BuildTime = 50000,
+    },
+    Weapon = {
+        {
+            Damage = 6500,
+            FiringRandomness = 0.3125,
+        },
+    },
+}

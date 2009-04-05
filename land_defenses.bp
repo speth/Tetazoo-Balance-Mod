@@ -1,0 +1,153 @@
+# Aeon T2 static artillery
+UnitBlueprint {
+    Merge = true, 
+    BlueprintId="uab2303", 
+    Economy = {
+        BuildCostMass = 1940,
+        BuildCostEnergy = 13860,
+        # BuildTime = 1386,
+    },
+    Weapon = {
+        {
+            Damage = 720,
+            MuzzleVelocity = 30,
+            FiringRandomness = 1,
+        },
+    },
+} 
+
+# UEF T2 static artillery
+UnitBlueprint {
+    Merge = true, 
+    BlueprintId="ueb2303", 
+    Economy = {
+        BuildCostMass = 1890,
+        BuildCostEnergy = 13500,
+        # BuildTime = 1350,
+    },
+    Weapon = {
+        {
+            Damage = 2000,
+            MuzzleVelocity = 30,
+            FiringRandomness = 1.25,
+            RateOfFire = 0.075,
+        },
+    },
+}
+
+# Cybran T2 static artillery
+UnitBlueprint {
+    Merge = true, 
+    BlueprintId="urb2303", 
+    Economy = {
+        BuildCostMass = 1680,
+        BuildCostEnergy = 12000,
+        # BuildTime = 1200,
+    },
+    Weapon = {
+        {
+            Damage = 2000,
+            MuzzleVelocity = 30,
+            FiringRandomness = 1.5,
+            RateOfFire = 0.0625,
+        },
+    },
+}
+
+# Seraphim T2 static artillery
+UnitBlueprint {
+    Merge = true, 
+    BlueprintId="xsb2303", 
+    Economy = {
+        BuildCostMass = 1680,
+        BuildCostEnergy = 12000,
+        # BuildTime = 1200,
+    },
+    Weapon = {
+        {
+            Damage = 3200,
+            MuzzleVelocity = 30,
+            FiringRandomness = 1,
+        },
+    },
+}
+
+# Aeon T2 Point Defense
+UnitBlueprint {
+    Merge = true,
+    BlueprintId="uab2301",
+    Defense = {
+        Health = 5625,
+        MaxHealth = 5625,
+    },
+    Weapon = {
+        {
+            # RateOfFire = 0.25,
+            RateOfFire = 0.3,
+        },
+    },
+}
+
+# UEF T2 Point Defense
+UnitBlueprint {
+    Merge = true,
+    BlueprintId="ueb2301",
+    Defense = {
+        Health = 5000,
+        MaxHealth = 5000,
+    },
+    Weapon = {
+        {
+            # RateOfFire = 0.6,
+            RateOfFire = 0.72,
+        },
+    },
+}
+
+# Cybran T2 Point Defense
+UnitBlueprint {
+    Merge = true,
+    BlueprintId="urb2301",
+    Defense = {
+        Health = 5000,
+        MaxHealth = 5000,
+    },
+    Weapon = {
+        {
+            # Damage = 9,
+            Damage = 16,
+        },
+    },
+}
+
+# Seraphim T2 Point Defense
+UnitBlueprint {
+    Merge = true,
+    BlueprintId="xsb2301",
+    Defense = {
+        Health = 5250,
+        MaxHealth = 5250,
+    },
+    Weapon = {
+        {
+            # Damage = 200,
+            Damage = 300,
+        },
+    },
+}
+
+# UEF T3 Point Defense
+UnitBlueprint {
+    Merge = true,
+    BlueprintId="xeb2306",
+    Defense = {
+        Health = 12500,
+        MaxHealth = 12500,
+    },
+    Weapon = {
+        {
+            # Damage = 175,
+            Damage = 210,
+        },
+    },
+}

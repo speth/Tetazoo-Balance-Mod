@@ -1,0 +1,17 @@
+# Hive
+UnitBlueprint { 
+    Merge = false, 
+    BlueprintId="xrb0104",
+    Categories = {
+        'STRUCTURE'
+    },
+} 
+
+# Kennel
+UnitBlueprint { 
+    Merge = false, 
+    BlueprintId="xeb0104", 
+    Categories = {
+        'STRUCTURE'
+    },
+} 

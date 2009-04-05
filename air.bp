@@ -1,0 +1,243 @@
+# Aeon Air Scout
+UnitBlueprint {
+    Merge = true,
+    BlueprintId="uaa0101",
+    Economy = {
+        BuildCostEnergy = 1200, 
+        BuildCostMass = 20,
+        BuildTime = 300,
+    },
+}
+
+# UEF Air Scout
+UnitBlueprint {
+    Merge = true,
+    BlueprintId="uea0101",
+    Economy = {
+        BuildCostEnergy = 1200, 
+        BuildCostMass = 20,
+        BuildTime = 300,
+    },
+}
+
+# Cybran Air Scout
+UnitBlueprint {
+    Merge = true,
+    BlueprintId="ura0101",
+    Economy = {
+        BuildCostEnergy = 1200, 
+        BuildCostMass = 20,
+        BuildTime = 300,
+    },
+}
+
+# Seraphim Air Scout
+UnitBlueprint {
+    Merge = true,
+    BlueprintId="xsa0101",
+    Economy = {
+        BuildCostEnergy = 1200, 
+        BuildCostMass = 20,
+        BuildTime = 300,
+    },
+}
+
+
+# Aeon T2 Torpedo bomber
+UnitBlueprint {
+    Merge = true,
+    BlueprintId="uaa0204",
+    Defense = {
+        Health = 1230,
+        MaxHealth = 1230,
+    },
+}
+
+# UEF T2 Torpedo bomber
+UnitBlueprint {
+    Merge = true,
+    BlueprintId="uea0204",
+    Defense = {
+        Health = 1290,
+        MaxHealth = 1290,
+    },
+}
+
+# Cybran T2 Torpedo bomber
+UnitBlueprint { 
+    Merge = true,
+    BlueprintId="ura0204",
+    Defense = {
+        Health = 1200,
+        MaxHealth = 1200,
+    },
+}
+
+# Seraphim T2 Torpedo bomber
+UnitBlueprint { 
+    Merge = true,
+    BlueprintId="xsa0204",
+    Defense = {
+        Health = 1260,
+        MaxHealth = 1260,
+    },
+}
+
+# Aeon T2 Gunship
+UnitBlueprint { 
+    Merge = true,
+    BlueprintId="uaa0203",
+    Defense = {
+        Health = 1270,
+        MaxHealth = 1270,
+    },
+}
+
+# UEF T2 Gunship
+UnitBlueprint { 
+    Merge = true,
+    BlueprintId="uea0203",
+    Defense = {
+        Health = 1320,
+        MaxHealth = 1320,
+    },
+}
+# Cybran T2 Gunship
+UnitBlueprint { 
+    Merge = true,
+    BlueprintId="ura0203",
+    Defense = {
+        Health = 1250,
+        MaxHealth = 1250,
+    },
+}
+
+# Seraphim T2 Gunship
+UnitBlueprint { 
+    Merge = true,
+    BlueprintId="xsa0203",
+    Defense = {
+        Health = 1300,
+        MaxHealth = 1300,
+    },
+}
+# Aeon ASF
+UnitBlueprint { 
+ Merge = true, 
+    BlueprintId="uaa0303", 
+    Air = {
+        MaxAirspeed = 22,
+    },
+    Economy = {
+        BuildCostEnergy = 30000,
+        BuildCostMass = 600,
+        BuildTime = 4500,
+    },
+    Weapon = {
+        {
+            Damage = 101,
+        },
+        {
+        },
+    },
+} 
+
+# UEF ASF
+UnitBlueprint { 
+ Merge = true, 
+    BlueprintId="uea0303", 
+    Air = {
+        MaxAirspeed = 22,
+    },
+    Economy = {
+        BuildCostEnergy = 30000,
+        BuildCostMass = 600,
+        BuildTime = 4500,
+    },
+    Weapon = {
+        {
+            Damage = 150,
+        },
+        {
+            Damage = 150,
+        },
+        {
+        },
+    },
+} 
+
+# Cybran ASF
+UnitBlueprint { 
+ Merge = true, 
+    BlueprintId="ura0303", 
+    Air = {
+        MaxAirspeed = 22,
+    },
+    Economy = {
+        BuildCostEnergy = 30000,
+        BuildCostMass = 600,
+        BuildTime = 4500,
+    },
+    Weapon = {
+        {
+            Damage = 75,
+        },
+        {
+            Damage = 75,
+        },
+        {
+        },
+    },
+} 
+
+# Seraphim ASF
+UnitBlueprint { 
+    Merge = true, 
+    BlueprintId="xsa0303", 
+    Air = {
+        MaxAirspeed = 22,
+    },
+    Economy = {
+        BuildCostEnergy = 30000,
+        BuildCostMass = 600,
+        BuildTime = 4500,
+    },
+    Weapon = {
+        {
+            Damage = 101,
+        },
+        {
+        },
+    },
+} 
+
+# Aeon Restorer
+UnitBlueprint {
+    Merge = true,
+    BlueprintId="xaa0305",
+    Economy = {
+        BuildCostEnergy = 35000,
+        BuildTime = 7000,
+    },
+    Weapon = {
+        {
+        },
+        {
+            Damage = 39,
+        },
+        {
+            Damage = 39,
+        },
+        {
+        },
+}
+
+# UEF Broadsword
+UnitBlueprint {
+    Merge = true,
+    BlueprintId="uea0305",
+    Defense = {
+        MaxHealth = 5999,
+        Health = 5999,
+    },
+}
