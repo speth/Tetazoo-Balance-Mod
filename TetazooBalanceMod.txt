@@ -1,6 +1,6 @@
 -------------------------------
 ----- Tetazoo Balance Mod -----
----- Version 2.0 Changelog ----
+------ Version 2.2 README -----
 -------------------------------
 
 Primary goals:
@@ -23,6 +23,13 @@ New in Version 2.0:
   - When your ACU dies, the spare becomes your real ACU, with all abilities available (you lose all upgrades and veterancy)
 - Repair works in a reasonable manner for units built from factories
 - T3 Mobile AA mod is merged directly, and the dps of all T3MAA units is increased to ~ 350 dps
+
+Version 2.1:
+- Fixed repair code to apply to Seraphim engineers as well
+- Bulwark: Shield HP reduced to 6000 (8000)
+
+Version 2.2: 
+- Fixed ACU code so it now dies properly when there is no spare
 
 *********************
 ****** ECONOMY ******

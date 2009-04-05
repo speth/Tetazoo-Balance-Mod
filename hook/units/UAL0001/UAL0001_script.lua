@@ -61,10 +61,9 @@ UAL0001 = Class(TBM_UAL0001) {
     end,
 
     OnKilled = function(self)
-        LOG("UAL0001:OnKilled")
         local army = self:GetArmy()
         local backupACUs = ArmyBrains[army]:GetListOfUnits(categories.AEON * categories.EXPERIMENTAL * categories.BUILTBYQUANTUMGATE, false)
-        if backupACUs then
+        if backupACUs[1] then
             local position = backupACUs[1]:GetPosition()
             local orientation = backupACUs[1]:GetOrientation()
             backupACUs[1]:Destroy()

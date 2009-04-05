@@ -178,7 +178,7 @@ URL0001 = Class(TBM_URL0001) {
         LOG("URL0001:OnKilled")
         local army = self:GetArmy()
         local backupACUs = ArmyBrains[army]:GetListOfUnits(categories.CYBRAN * categories.EXPERIMENTAL * categories.BUILTBYQUANTUMGATE, false)
-        if backupACUs then
+        if backupACUs[1] then
             local position = backupACUs[1]:GetPosition()
             local orientation = backupACUs[1]:GetOrientation()
             backupACUs[1]:Destroy()
