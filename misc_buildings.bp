@@ -2,12 +2,32 @@
 UnitBlueprint { 
     Merge = true, 
     BlueprintId = "xab3301",
+    Defense = {
+        FakeShield = {
+            ImpactEffects = 'AeonShieldHit01',
+            ImpactMesh = '/effects/entities/ShieldSection01/ShieldSection01_mesh',
+            Mesh = '/effects/entities/AeonShield01/AeonShield01_mesh',
+            MeshZ = '/effects/entities/Shield01/Shield01z_mesh',
+            RegenAssistMult = 60,
+            ShieldEnergyDrainRechargeTime = 5,
+            ShieldMaxHealth = 15000,
+            ShieldRechargeTime = 16,
+            ShieldRegenRate = 150,
+            ShieldUseRate = 100,
+            TargetChangeCost = 3000,
+            ShieldRegenStartTime = 1,
+            ShieldSize = 1,
+            ShieldVerticalOffset = -3,
+        },
+    },
     Economy = {
         BuildCostMass = 4800,
         BuildCostEnergy = 80000,
         BuildTime = 5400,
     },
-} 
+    Physics = {
+    }
+}
 
 # Soothsayer
 UnitBlueprint {

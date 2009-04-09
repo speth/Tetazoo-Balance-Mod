@@ -13,4 +13,3 @@ SConstructionUnit = Class(TBM_SConstructionUnit) {
     end,
 
 }
-

@@ -15,3 +15,12 @@ UnitBlueprint {
         'STRUCTURE'
     },
 } 
+
+# Awesome T3 Hive...
+UnitBlueprint { 
+    Merge = true, 
+    BlueprintId="xrb0304",
+    Economy = {
+        BuildRate = 6000,
+    }
+}

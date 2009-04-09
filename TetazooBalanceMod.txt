@@ -31,6 +31,16 @@ Version 2.1:
 Version 2.2: 
 - Fixed ACU code so it now dies properly when there is no spare
 
+Version 2.3:
+- Fixed capture times to match traditional values
+- Replaced score with formula from Phantom [mass_killed - mass_lost + 0.02*(energy_killed - energy_lost)]
+- Changed Quantum Optics behavior to rely on a locally generated & consumed resource (uses shield HP)
+  - Capacity is 1500
+  - Regeneration rate (when off) is 15/s.
+  - Having the eye on consumes 10/s
+  - Moving the eye costs 300
+  - The eye only consumes energy while it is on (not while recharging). Energy cost to move is the same (10k).
+
 *********************
 ****** ECONOMY ******
 *********************
