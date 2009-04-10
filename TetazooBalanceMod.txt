@@ -41,6 +41,22 @@ Version 2.3:
   - Moving the eye costs 300
   - The eye only consumes energy while it is on (not while recharging). Energy cost to move is the same (10k).
 
+Version 2.4:
+- Changed function of Mass Fabricators
+  - They now supplement the mass production of mass extractors in a specific radius, with a maximum of one fab per extractor
+  - T2 fab stats:
+    * Radius 5 (generally only one extractor in range)
+    * Generates 22% of the mass of extractors (2 mass for a surrounded T2 mex; 6 mass for a surrounded T3 mex)
+    * Cost is 90 energy per mass produced
+    * Build cost is 350/8000/833
+  - T3 fab stats:
+    * Radius 25 (enough to get the 4 core extractors in your base, and several other groups of 2--3 extractors on most maps
+    * Generates 33% of the mass of extractors (4 mass for a surrounded T2 mex; 12 mass for a surrounded T3 mex)
+    * cost is 2100/96000/4500
+  - These costs should be set such that it is generally worthwhile to build fabs near T3 extractors, and that the T3 fab 
+    is more efficient if there are at least 3 extractors in the vicinity.
+- Fixed bug that allowed T2 fabs to be upgraded to T3
+
 *********************
 ****** ECONOMY ******
 *********************

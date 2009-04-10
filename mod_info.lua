@@ -1,6 +1,6 @@
 name = "Tetazoo Balance Mod"
 uid = "2512bbc6-febf-4930-8d36-d2274401cc52"
-version = 3
+version = 4
 copyright = ""
 description = "The Official Clan Tetazoo Balance Mod"
 author = "yarmond"
