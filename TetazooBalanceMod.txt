@@ -1,6 +1,6 @@
 -------------------------------
 ----- Tetazoo Balance Mod -----
------- Version 2.2 README -----
+------ Version 2.5 README -----
 -------------------------------
 
 Primary goals:
@@ -14,32 +14,14 @@ Primary goals:
 - Costs are given as mass/energy/time
 - Original values are given in parentheses after the new value
 
-New in Version 2.0:
-- Radiation-hardened Strategic missile defense: Takes 10% damage from all nukes
-- Spare ACU can be built from the Quantum Gateway
-  - Cost: 18,000 mass, 900,000 energy, builds in 6:00 (-50, -2500)
-  - You can only build one, and it must be of the same faction as your ACU
-  - It is a basic ACU with no upgrades, and without overcharge
-  - When your ACU dies, the spare becomes your real ACU, with all abilities available (you lose all upgrades and veterancy)
-- Repair works in a reasonable manner for units built from factories
-- T3 Mobile AA mod is merged directly, and the dps of all T3MAA units is increased to ~ 350 dps
+*****************
+*** Changelog ***
+*****************
 
-Version 2.1:
-- Fixed repair code to apply to Seraphim engineers as well
-- Bulwark: Shield HP reduced to 6000 (8000)
-
-Version 2.2: 
-- Fixed ACU code so it now dies properly when there is no spare
-
-Version 2.3:
-- Fixed capture times to match traditional values
-- Replaced score with formula from Phantom [mass_killed - mass_lost + 0.02*(energy_killed - energy_lost)]
-- Changed Quantum Optics behavior to rely on a locally generated & consumed resource (uses shield HP)
-  - Capacity is 1500
-  - Regeneration rate (when off) is 15/s.
-  - Having the eye on consumes 10/s
-  - Moving the eye costs 300
-  - The eye only consumes energy while it is on (not while recharging). Energy cost to move is the same (10k).
+Version 2.5:
+- Tetazoo Balance Mod explicitly conflicts with the Community Balance Patch
+- The last SCU built by a Quantum Gateway no longer dies when the QG is destroyed
+- Mass fabs now work as advertized.
 
 Version 2.4:
 - Changed function of Mass Fabricators
@@ -56,6 +38,34 @@ Version 2.4:
   - These costs should be set such that it is generally worthwhile to build fabs near T3 extractors, and that the T3 fab 
     is more efficient if there are at least 3 extractors in the vicinity.
 - Fixed bug that allowed T2 fabs to be upgraded to T3
+
+Version 2.3:
+- Fixed capture times to match traditional values
+- Replaced score with formula from Phantom [mass_killed - mass_lost + 0.02*(energy_killed - energy_lost)]
+- Changed Quantum Optics behavior to rely on a locally generated & consumed resource (uses shield HP)
+  - Capacity is 1500
+  - Regeneration rate (when off) is 15/s.
+  - Having the eye on consumes 10/s
+  - Moving the eye costs 300
+  - The eye only consumes energy while it is on (not while recharging). Energy cost to move is the same (10k).
+
+Version 2.2: 
+- Fixed ACU code so it now dies properly when there is no spare
+
+Version 2.1:
+- Fixed repair code to apply to Seraphim engineers as well
+- Bulwark: Shield HP reduced to 6000 (8000)
+
+Version 2.0:
+- Radiation-hardened Strategic missile defense: Takes 10% damage from all nukes
+- Spare ACU can be built from the Quantum Gateway
+  - Cost: 18,000 mass, 900,000 energy, builds in 6:00 (-50, -2500)
+  - You can only build one, and it must be of the same faction as your ACU
+  - It is a basic ACU with no upgrades, and without overcharge
+  - When your ACU dies, the spare becomes your real ACU, with all abilities available (you lose all upgrades and veterancy)
+- Repair works in a reasonable manner for units built from factories
+- T3 Mobile AA mod is merged directly, and the dps of all T3MAA units is increased to ~ 350 dps
+
 
 *********************
 ****** ECONOMY ******
