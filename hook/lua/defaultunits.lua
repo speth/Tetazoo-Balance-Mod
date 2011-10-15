@@ -120,3 +120,15 @@ MassCollectionUnit = Class(TBM_MassCollectionUnit) {
         TBM_MassCollectionUnit.OnDestroy(self)
     end,
 }
+
+TBM_QuantumGateUnit = QuantumGateUnit
+
+QuantumGateUnit = Class(TBM_QuantumGateUnit) {
+    OnKilled = function(self, instigator, type, overkillRatio)
+        self:StopUnitAmbientSound( 'ActiveLoop' )
+        StructureUnit.OnKilled(self, instigator, type, overkillRatio) # bypassing factoryunit onkilled event
+        if self.UnitBeingBuilt and not self.UnitBeingBuilt:IsDead() and self.UnitBeingBuilt:GetFractionComplete() != 1 then
+            self.UnitBeingBuilt:Destroy()
+        end
+    end,
+}
