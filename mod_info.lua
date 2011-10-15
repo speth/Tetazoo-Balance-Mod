@@ -10,9 +10,13 @@ enabled = true
 exclusive = false
 ui_only = false
 requires = {
- "156D4798-5C08-11DD-BEF3-1CB556D89593",  # Community patch v3
+ "156D4798-5C08-11DD-BEF3-1CB556D89593",  # Community bug fix patch v3
 }
 requiresNames = { }
-conflicts = { }
+conflicts = { 
+ "AA21E49C-5240-11DD-AD4C-A8E955D89593", # community balance patch (already incorporated, more or less)
+}
 before = { }
-after = { }
+after = {
+ "156D4798-5C08-11DD-BEF3-1CB556D89593",
+}
