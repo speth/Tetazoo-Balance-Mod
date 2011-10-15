@@ -48,8 +48,8 @@ MassFabricationUnit = Class(TBM_MassFabricationUnit) {
         # LOG('I have ' .. table.getn(self.Friends) .. ' friends, producing ' .. friendProduction .. ' mass/s')
        
         local extraMassProduction = friendProduction/(bp.MassReductionFactor or 27)
-        local newEnergyConsumption = bp.MaintenanceConsumptionPerSecondEnergy + extraMassProduction*bp.AdditionalEnergyConsumption
-        self:SetProductionPerSecondMass((bp.ProductionPerSecondMass + extraMassProduction) * (self.MassProdAdjMod or 1))
+        local newEnergyConsumption = extraMassProduction*bp.AdditionalEnergyConsumption
+        self:SetProductionPerSecondMass(extraMassProduction * (self.MassProdAdjMod or 1))
         self:SetEnergyMaintenanceConsumptionOverride(newEnergyConsumption)
         self:UpdateConsumptionValues()
     end,
