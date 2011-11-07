@@ -9,7 +9,7 @@ UnitBlueprint {
         },
         BuildCostMass = 5830,
         BuildCostEnergy = 123000,
-        BuildTime = 288000,
+        BuildTime = 216000,
     },
     Enhancements = {
         EngineeringFocusingModule = {
@@ -75,7 +75,7 @@ UnitBlueprint {
         },
         BuildCostMass = 6000,
         BuildCostEnergy = 120000,
-        BuildTime = 288000,
+        BuildTime = 216000,
     },
     Enhancements = {
         CloakingGenerator = {
@@ -148,7 +148,7 @@ UnitBlueprint {
         },
         BuildCostMass = 6400,
         BuildCostEnergy = 114000,
-        BuildTime = 288000,
+        BuildTime = 216000,
     },
     Enhancements = {
         AdvancedCooolingUpgrade = {
@@ -211,7 +211,7 @@ UnitBlueprint {
         },
         BuildCostMass = 6200,
         BuildCostEnergy = 117000,
-        BuildTime = 288000,
+        BuildTime = 216000,
     },
     Enhancements = {
         DamageStabilization = {

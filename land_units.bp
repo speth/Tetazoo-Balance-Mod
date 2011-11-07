@@ -210,11 +210,16 @@ UnitBlueprint {
 
 # Aeon T3 Mobile Heavy Artillery
 UnitBlueprint {
-    Merge = true, 
+    Merge = true,
     BlueprintId="ual0304",
     Defense = {
         Health = 1200,
         MaxHealth = 1200,
+    },
+    Economy = {
+    	    BuildCostMass = 1050,
+	    BuildCostEnergy = 10500,
+	    BuildTime = 6400,
     },
     Weapon = {
         {
@@ -222,6 +227,8 @@ UnitBlueprint {
             # Damage = 95,
             Damage = 126,
             RateOfFire = 0.075,
+	    DamageRadius = 2.5,
+	    DamageFriendly = false,
         },
     },
 }
@@ -234,12 +241,19 @@ UnitBlueprint {
         Health = 1275,
         MaxHealth = 1275,
     },
+    Economy = {
+    	    BuildCostMass = 1050,
+	    BuildCostEnergy = 10500,
+	    BuildTime = 6400,
+    },
     Weapon = {
         {
             MaxRadius = 100,
             # Damage = 750,
             Damage = 1000,
             RateOfFire = 0.15,
+	    DamageRadius = 3.25,
+	    DamageFriendly = false,
         },
     },
 }
@@ -252,12 +266,19 @@ UnitBlueprint {
         Health = 1125,
         MaxHealth = 1125,
     },
+    Economy = {
+    	    BuildCostMass = 1050,
+	    BuildCostEnergy = 10500,
+	    BuildTime = 6400,
+    },
     Weapon = {
         {
             MaxRadius = 100,
             # Damage = 450,
             Damage = 600,
             RateOfFire = 0.225,
+	    DamageFriendly = false,
+	    DamageRadius = 5,
         },
     },
 }
@@ -270,12 +291,19 @@ UnitBlueprint {
         Health = 1225,
         MaxHealth = 1225,
     },
+    Economy = {
+    	    BuildCostMass = 1050,
+	    BuildCostEnergy = 10500,
+	    BuildTime = 6400,
+    },
     Weapon = {
         {
             MaxRadius = 100,
             # Damage = 700,
             Damage = 934,
             RateOfFire = 0.15,
+	    DamageRadius = 4,
+	    DamageFriendly = false,
         },
     },
 }

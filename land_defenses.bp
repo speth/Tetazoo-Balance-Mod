@@ -11,7 +11,8 @@ UnitBlueprint {
         {
             Damage = 720,
             MuzzleVelocity = 30,
-            FiringRandomness = 1,
+            FiringRandomness = 0.5,
+            RateOfFire = 0.066,
         },
     },
 } 
@@ -29,8 +30,8 @@ UnitBlueprint {
         {
             Damage = 2000,
             MuzzleVelocity = 30,
-            FiringRandomness = 1.25,
-            RateOfFire = 0.075,
+            FiringRandomness = 0.625,
+            RateOfFire = 0.10,
         },
     },
 }
@@ -48,8 +49,8 @@ UnitBlueprint {
         {
             Damage = 2000,
             MuzzleVelocity = 30,
-            FiringRandomness = 1.5,
-            RateOfFire = 0.0625,
+            FiringRandomness = 0.75,
+            RateOfFire = 0.0833,
         },
     },
 }
@@ -67,7 +68,8 @@ UnitBlueprint {
         {
             Damage = 3200,
             MuzzleVelocity = 30,
-            FiringRandomness = 1,
+            FiringRandomness = 0.5,
+            RateOfFire = 0.066,
         },
     },
 }

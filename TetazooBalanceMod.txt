@@ -1,6 +1,6 @@
 -------------------------------
 ----- Tetazoo Balance Mod -----
------- Version 2.5 README -----
+------ Version 2.6 README -----
 -------------------------------
 
 Primary goals:
@@ -18,10 +18,16 @@ Primary goals:
 *** Changelog ***
 *****************
 
+Version 2.6:
+- SCU build time reduced from 4:00 to 3:00
+- improved accuracy and firing rate of T2 static artillery
+- removed friendly fire from T3 mobile artillery, and decreased splash slightly
+- increased build cost of T3 mobile artillery by 33%
+
 Version 2.5:
 - Tetazoo Balance Mod explicitly conflicts with the Community Balance Patch
 - The last SCU built by a Quantum Gateway no longer dies when the QG is destroyed
-- Mass fabs now work as advertized.
+- Mass fabs now work as advertised.
 
 Version 2.4:
 - Changed function of Mass Fabricators
@@ -220,11 +226,11 @@ Version 2.0:
 
 >> Tier 2 <<
 * T2 static artillery is useless
-  - all races: 25% decrease in cost (same build times), slight increase in accuracy
-  - Aeon: 25% increase in damage
-  - UEF: 50% increase in ROF
-  - Cybran: 25% increase in ROF, 15% increase in damage per shot
-  - Seraphim: 33% increase in damage per shot
+  - all races: 25% decrease in cost (same build times), substantial increase in accuracy
+  - Aeon: 25% increase in damage, 33% increase in ROF
+  - UEF: 100% increase in ROF
+  - Cybran: 66% increase in ROF, 15% increase in damage per shot
+  - Seraphim: 33% increase in damage per shot, 33% increase in ROF
 * Static Flak is useless
   - increase range to 50 (44)
   - increase projectile speed to 60 (20) 
@@ -321,7 +327,7 @@ Version 2.0:
   - SCUs can build T3 factories directly
 * Modify Quantum Gateway (corresponding to other factory changes)
   - Build rate = 1200
-  - set build time of SCU = 288000 [4:00]
+  - set build time of SCU = 216000 [3:00]
 
 >> ACU <<
 * ACU engineering suite is by far the quickest route to T3
