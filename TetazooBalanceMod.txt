@@ -18,6 +18,9 @@ Primary goals:
 *** Changelog ***
 *****************
 
+Version 2.7:
+- Fixed Seraphim spare ACU to not have Enhancements available
+
 Version 2.6:
 - SCU build time reduced from 4:00 to 3:00
 - improved accuracy and firing rate of T2 static artillery
