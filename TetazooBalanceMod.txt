@@ -20,6 +20,7 @@ Primary goals:
 
 Version 2.7:
 - Fixed Seraphim spare ACU to not have Enhancements available
+- Mass fabs only work with the player's own mass extractors
 
 Version 2.6:
 - SCU build time reduced from 4:00 to 3:00

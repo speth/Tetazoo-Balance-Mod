@@ -34,7 +34,7 @@ MassFabricationUnit = Class(TBM_MassFabricationUnit) {
         
         local friendProduction = 0
         for i,unit in extractors do
-            if not unit.FabFriend and not unit:IsBeingBuilt() then
+            if not unit.FabFriend and not unit:IsBeingBuilt() and unit:GetArmy() == self:GetArmy() then
                 unit.FabFriend = self
                 table.insert(self.Friends,unit)
                 self:PlayReclaimEffects(unit, self:GetBlueprint().General.BuildBones.BuildEffectBones or {0,}, unit.ReclaimEffectsBag )
