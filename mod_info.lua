@@ -1,10 +1,10 @@
-name = "Tetazoo Balance Mod"
-uid = "2512bbc6-febf-4930-8d36-d2274401cc52"
-version = 4
+name = "Tetazoo Balance Mod 2.7"
+uid = "d52b00c0-39b3-11e1-90f1-001fbc085391"
+version = 1
 copyright = ""
 description = "The Official Clan Tetazoo Balance Mod"
 author = "yarmond"
-url = ""
+url = "https://github.com/speth/Tetazoo-Balance-Mod"
 selectable = true
 enabled = true
 exclusive = false
