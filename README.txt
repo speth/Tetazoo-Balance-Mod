@@ -1,6 +1,6 @@
 -------------------------------
 ----- Tetazoo Balance Mod -----
------- Version 2.7 README -----
+------ Version 2.8 README -----
 -------------------------------
 
 Primary goals:
@@ -17,6 +17,9 @@ Primary goals:
 *****************
 *** Changelog ***
 *****************
+
+Version 2.8:
+- Fixed a bug in the CBFP that disabled most nukes when any build restrictions were enabled.
 
 Version 2.7:
 - Fixed Seraphim spare ACU to not have Enhancements available
